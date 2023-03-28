@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.forOuterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 400px;
+  padding: 20px;
+}
+
+.forHeader {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 42px;
+  margin-left: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.forPara {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-left: 50px;
+  font-size: 26px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.forSearchInput {
+  padding: 7px;
+  color: #ffffff;
+}
+.forSearch {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-self: center;
+  border-radius: 5px;
+}
+.forUl {
+  background-color: #152850;
+  padding: 20px;
+  margin: 0px;
+  min-height: 100vh;
+}
+.forli {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.forSearchInput {
+  background-color: transparent;
+  border-width: 0px;
+  margin: 0px;
+  padding: 6px;
+  outline: none;
+}
+.foricon {
+  align-self: center;
+  margin: 0px;
+}
+.forImageinList {
+  height: 100px;
+  width: 160px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.forInside {
+  display: flex;
+}
+.foricon_1 {
+  align-self: center;
+}
+
+.forInside_1 {
+  display: flex;
+  align-self: center;
+}
+
+.forParainList {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.foriin {
+  align-self: center;
+}
+
+.forParainList_1 {
+  font-size: 22px;
+  color: #3b82f6;
+  margin-top: 2px;
+  padding-top: 2px;
+}
+
+.forParainList_2 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 40px;
+}
+.forbttton {
+  background-color: transparent;
+  height: 30px;
+  align-self: center;
+  padding: 4px 0px 0px 0px;
+  border-width: 0px;
+}
+
+.forListHeader {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #ffffff;
+}
+.fornot {
+  color: #ffffff;
+  font-size: 44px;
+  text-align: center;
+}
+.fornotdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
